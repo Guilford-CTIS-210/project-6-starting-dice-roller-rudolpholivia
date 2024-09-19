@@ -66,6 +66,10 @@ After the end of the `for` loop, but before the end of `main`, add a line that p
 
 As a good test run, 10d6 will have values that vary a lot (from 10 to 60), but is generally pretty close to 35. This is a long-term average, so you need to test it quite a few times to see this trend.
 
+## Close your Scanner
+
+Make sure the last line of `main` is something like `scan.close();` - this closes possible resource leaks.
+
 ## Wrapping up
 
 Return to your code and make sure it has output somewhat like the following.
